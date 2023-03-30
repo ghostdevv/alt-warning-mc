@@ -15,7 +15,8 @@
         "removeComments": true,
         "sourceMap": false,
         "checkJs": true,
-        "noEmit": true
+        "noEmit": true,
+        "types": ["@cloudflare/workers-types"]
     },
     "include": ["@types", "src"],
     "exclude": ["build", "node_modules"]
