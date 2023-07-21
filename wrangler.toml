@@ -10,3 +10,6 @@ main = "src/index.ts"
 
 [miniflare]
 kv_persist = true
+
+[triggers]
+crons = ["*/15 * * * *"]
