@@ -1,18 +1,12 @@
-type = "javascript"
-
 name = "alt-warning"
 account_id = "44321e1b7fbd29b56b65c1890a3bbee2"
-compatibility_date = "2022-11-03"
+compatibility_date = "2023-05-10"
 
-kv_namespaces = []
+kv_namespaces = [
+    { binding = "STATUS", id = "abcc0dc8e0094d0b9eb9f96f0de1fdd1", preview_id = "edb971915f7b4740a9b78129b71d4c29"  }
+]
 
-[build]
-command = "npm run build"
-
-[build.upload]
-format = "modules"
-main = "./index.mjs"
-dir = "dist"
+main = "src/index.ts"
 
 [miniflare]
 kv_persist = true
