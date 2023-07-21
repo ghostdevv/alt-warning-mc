@@ -37,3 +37,7 @@ export interface Motd {
     clean: string;
     html: string;
 }
+
+export interface Env {
+    STATUS: KVNamespace;
+}
