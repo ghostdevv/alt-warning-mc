@@ -10,6 +10,6 @@
         "esbuild": "^0.18.15",
         "miniflare": "^3.20230717.0",
         "typescript": "^5.1.6",
-        "wrangler": "^3.3.0"
+        "wrangler": "^3.19.0"
     }
 }
